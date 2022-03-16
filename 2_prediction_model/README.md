@@ -29,7 +29,7 @@ The prediction dataframe should be trained and predicted on the following datafr
 |709dc1da|                     36|                    11|                    1|                    0|
 +--------+-----------------------+----------------------+---------------------+---------------------+
 ```
-The dataframe above, accessible in `dataframe.csv` in the code, contains features for each `user_id`, including `month_interaction_count`, `week_interaction_count`, and `day_interaction_count`.
+The dataframe above, accessible in `dataframe.csv` in the folder, contains features for each `user_id`, including `month_interaction_count`, `week_interaction_count`, and `day_interaction_count`.
 
 For each `user_id`, the binary label `cancelled_within_week` is `1`if the user cancelled their subscription within a week of the last recorded `day_interaction_count`and `0` otherwise.
 
